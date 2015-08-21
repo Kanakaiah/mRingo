@@ -1,0 +1,384 @@
+﻿/* mRingo styles */
+
+/* mRingo basic screen layout styles */
+    	
+/* Navbar styles */    	
+#custom-navbar {
+ 	background-color:#571B7E;
+	padding:0 20px 0 20px;
+}
+    		
+.navbar-brand {
+    color:white;
+	font-size:2em;
+    font-weight:bold;
+    font-family:Papyrus, fantasy;
+    padding-top:18px;
+}
+    	
+.navbar-brand:hover {
+	color:white;
+    font-size:2em;
+}
+    	
+.custom-nav-font{
+	color:white;
+}
+    	
+.custom-nav-font:hover {
+    color:#571B7E;
+    font-weight:bold;
+}
+    	
+.icon-bar{
+    background-color:white;
+}
+   
+/* Page content styles */ 
+	
+body{
+    background-color:black;
+    height:100%;
+}
+    	
+#content-box{
+    background-color:white;
+    margin:0 auto;
+    margin-top:90px;
+    height:600px;
+}
+
+/* Footer styles */
+
+#footer{
+	bottom:10px;
+  	width:100%;
+}
+  	
+#footer-links a{
+	color:grey;
+	padding:4px;
+}
+		
+#footer-links a:hover{
+	color:#571B7E;
+	font-weight:bold;
+}
+  		
+#footer-links{
+	margin-top:15px;
+  	padding:0;
+}
+  		
+#footer-social{
+	padding:0;
+  	margin-top:-25px;
+}
+
+#footer-social > a {
+	color:grey; 
+	text-decoration:none;
+	padding:3px;
+}
+  		
+#appstore{
+  	width:80px;	
+}
+
+.clear{
+	clear:both;
+}
+ 
+/* mRingo Home Page styles */   	
+#dataContainer{
+    color: #571B7E;
+    text-align:center;
+    padding-top:100px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+    	
+#dj-search{
+	margin:10px;
+}
+
+.custom-homepage-heading{
+    font-weight:bold;
+    font-size:1.9em;
+    text-shadow: 2px 2px 2px #ccc;
+}
+    	
+.margin-top{
+    margin-top:60px;
+}
+    	
+.custom-height{
+    height:600px;
+    background-size:cover;
+}
+    	
+.custom-find-btn{
+    background:#571B7E;
+    margin-bottom:40px;
+    width:200px;
+    padding-top:5px;
+    border: 1px solid #571B7E;
+}
+
+.custom-find-btn:hover{
+    background-color:#6A287E;
+}
+    	
+#imageContainer{
+    padding:0;
+}
+    	
+.carousel-inner > .item > img{
+	height: 100%;
+	margin: auto;
+}
+  		
+.glyphicon.spinning {
+  	position:relative;
+  	left:-18px;
+  	top:5px;
+	animation: spin 1s infinite linear;
+	-webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+/* mRingo Styles to get a layered form look */
+		
+#outer-container{
+    margin:90px 10px 10px 10px;
+    height:600px;
+}
+
+#inner-container{
+  	padding-top:10px;
+  	height:100%;
+}
+		
+.custom-form-heading{
+    text-align:center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px #ccc;
+    color: #571B7E;
+    padding:0;
+    margin-bottom:20px;
+}
+    	
+.formlayout-container{
+    position: relative;
+    width: 60%;
+    height:95%;
+   	margin: 0 auto;
+    padding: 20px 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #571B7E;
+}
+
+.formlayout-container::before,.formlayout-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+    background: #6A287E;
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #571B7E;
+}
+
+.formlayout-container::after{
+    top: 5px;
+    z-index: -2;
+    background: #571B7E;
+    -webkit-transform: rotateZ(-2deg);
+    -moz-transform: rotateZ(-2deg);
+    -ms-transform: rotateZ(-2deg);
+}
+
+.animated {
+  	-webkit-animation-duration: 1s;
+  	animation-duration: 1s;
+  	-webkit-animation-fill-mode: both;
+  	animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  	0% {
+    	opacity: 0;
+    	-webkit-transform: translateY(20px);
+    	transform: translateY(20px);
+  	}
+
+  	100% {
+    	opacity: 1;
+    	-webkit-transform: translateY(0);
+    	transform: translateY(0);
+  	}
+}
+
+@keyframes fadeInUp {
+  	0% {
+    	opacity: 0;
+    	-webkit-transform: translateY(20px);
+    	-ms-transform: translateY(20px);
+    	transform: translateY(20px);
+  	}
+
+  	100% {
+    	opacity: 1;
+    	-webkit-transform: translateY(0);
+    	-ms-transform: translateY(0);
+    	transform: translateY(0);
+  	}
+}
+
+.fadeInUp {
+  	-webkit-animation-name: fadeInUp;
+  	animation-name: fadeInUp;
+}
+
+/* mRingo Sign Up page styles */
+    	
+.signup-heading{
+    color: #571B7E;
+    padding-top:50px;
+    font-family: Papyrus, fantasy;
+    font-weight:bold;
+    text-shadow: 2px 2px 2px #ccc;
+}
+    	    	
+.separator{
+    width:50%;
+    margin:0 auto;
+}
+    
+.text {
+   	text-align: center; 
+   	border-bottom: 2px solid #571B7E; 
+   	line-height: 0.1em;
+   	margin: 10px 0 20px;
+} 
+
+.text span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+  		
+.userSignup{
+  	width:50%;
+  	margin:40px;
+  	font-size:1.1em;
+  	padding: 10px 20px;
+    border:1px solid #571B7E;
+  	background-color:#571B7E;
+}
+  		
+.userSignup:hover{
+    background-color:#6A287E;
+}
+    	
+.djSignup{
+  	width:50%;
+  	margin:40px;
+  	background-color:#6A287E;
+  	font-size:1.1em;
+  	padding: 10px 20px;
+    border:1px solid #6A287E;
+}
+  		
+.djSignup:hover{
+    background-color:#571B7E;
+}
+
+/* mRingo DJ Sign Up page styles */
+        
+.custom-fb-btn{
+ 	height:40px;
+   	width:90%;
+   	margin:20px;
+}
+    
+.input{
+    width: 90%;
+	padding: 10px;
+    border: 1px solid #ccc;;
+	background: #fafafa;
+    transition:0.2s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:15px;
+	height:40px;
+}
+
+.input:focus{
+    outline: 0;
+    background: #eee;
+}
+
+.info-msg{
+	font-size:0.7em;
+}
+
+/* mRingo User Sign Up page styles */
+
+.custom-fb-user-signup{
+   	height:40px;
+   	width:90%;
+}
+
+.user-signup-separator{
+    width:90%;
+    margin:0 auto;
+    margin-top:25px;
+}
+    
+.custom-submit{
+	background-color:#571B7E;
+	width:30%;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding: 10px 20px;
+    border:1px solid #571B7E;
+}
+		
+.custom-submit:hover{
+	background-color:#6A287E;
+}
+
+/* mRingo Login Page styles */
+
+.remember{
+	color:grey;
+	margin:20px 40px 20px 40px;
+	font-size:0.8em;
+}
+
+/* mRingo ContactUs page styles */
+
+.contact-box textarea{
+	height:140px;
+}
+
+.contact-box input{
+	height:40px;
+}
+    	
+.custom-alert{
+	width:90%;
+    padding:10px;
+    margin:0 auto;
+}
+

@@ -1,0 +1,16 @@
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\mRingo.Data.AccountContext.dll.config
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\mRingo.Data.AccountContext.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\mRingo.Data.AccountContext.pdb
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\EntityFramework.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\EntityFramework.SqlServer.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\mRingo.Data.dll
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\mRingo.Data.pdb
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\EntityFramework.xml
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\EntityFramework.SqlServer.xml
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\mRingo\mRingo.Data.AccountContext\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\mRingo\mRingo.Data.AccountContext\obj\Release\mRingo.Data.mRingoContext.csprojResolveAssemblyReference.cache
+C:\mRingo\mRingo.Data.AccountContext\obj\Release\mRingo.Data.AccountContext.dll
+C:\mRingo\mRingo.Data.AccountContext\obj\Release\mRingo.Data.AccountContext.pdb

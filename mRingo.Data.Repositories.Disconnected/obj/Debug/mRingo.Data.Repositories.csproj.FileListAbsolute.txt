@@ -1,0 +1,14 @@
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.dll.config
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.pdb
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.SqlServer.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.AccountContext.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.AccountContext.pdb
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.pdb
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.xml
+C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.SqlServer.xml
+C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.Data.Repositories.csprojResolveAssemblyReference.cache
+C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.dll
+C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.pdb

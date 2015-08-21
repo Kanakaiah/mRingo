@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="row" id="outer-container">
+        <div class="col-md-12" id="inner-container">
+            <div class="formlayout-container">
+                <h1 class="signup-heading">mRingo</h1>
+
+                <div class="user-signup-separator">
+                    <p class="text"><span>Sign Up</span></p>
+                </div>
+                @Html.ActionLink("I am a party host", "SignUpHt", "Account", null, new { @class = "btn btn-primary userSignup" })
+                <br />
+                @Html.ActionLink("I am a DJ", "SignUpDj", "Account", null, new { @class = "btn btn-primary djSignup" })
+            </div>
+        </div>
+    </div>

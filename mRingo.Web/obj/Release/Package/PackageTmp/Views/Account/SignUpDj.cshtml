@@ -1,0 +1,65 @@
+﻿@model mRingo.Web.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "SignUpDj";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row" id="outer-container">
+    <div class="col-md-12" id="inner-container">
+        <div class="formlayout-container">
+            <h3 class="custom-form-heading">Welcome to mRingo!</h3>
+            <div class="form-box">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input", @placeholder = "Email *" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input", @placeholder = "Password *" } })
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "input", @placeholder = "Confirm Password *" } })
+                                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "input", @placeholder = "FirstName" } })
+                                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10">
+                                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "input", @placeholder = "Last Name" } })
+                                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                }
+                @Html.Partial("_ExternalLoginsListPartial", new mRingo.Web.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+
+            
+                <p class="info-msg">By clicking "Sign Up with Facebook", you agree to mRingo's <a href="mRingo-Terms.html">Terms of Use</a><p>
+                <p class="info-msg">Oops! <a href="mRingo-UserSignup.html">I am a party host</a><p>
+            </div>
+        </div>
+    </div>
+</div>

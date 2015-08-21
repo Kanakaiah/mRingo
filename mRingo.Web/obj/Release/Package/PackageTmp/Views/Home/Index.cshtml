@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row" id="content-box">
+    <div class="col-md-4" id="dataContainer">
+        <p class="custom-homepage-heading">Your hunt for a DJ ends here!</p>
+
+        <form id="dj-search">
+            <div class="input-group margin-top">
+                <span class="input-group-addon glyphicon glyphicon-search"></span>
+                <input class="form-control" type="text" placeholder="Search city or postal code" />
+            </div>
+
+            <p class="custom-text margin-top">Within 25 miles<p>
+
+                <div class="form-control" id="slider"></div>
+
+                <button type="submit" class="btn btn-primary btn-lg custom-find-btn margin-top">
+                    <span style="font-size:1.5em;" class="glyphicon glyphicon-cd spinning"></span>
+                    Find DJ
+                </button>
+        </form>
+    </div>
+
+    <div class="col-md-8" id="imageContainer">
+        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active custom-height">
+                    <img src="~/Content/images/DJ1.jpg">
+                </div>
+
+                <div class="item custom-height">
+                    <img src="~/Content/images/DJ2.jpg">
+                </div>
+
+                <div class="item custom-height">
+                    <img src="~/Content/images/DJ3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(function () {
+        $("#slider").slider({
+            value: 25,
+            animate: "slow"
+        });
+    });
+
+</script>

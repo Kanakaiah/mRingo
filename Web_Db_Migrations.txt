@@ -1,0 +1,7 @@
+/* User account database migrations */
+Enable-Migrations
+Enable-Migrations -Force
+
+Add-Migration initial_create
+
+update-database -Verbose

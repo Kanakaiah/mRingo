@@ -5,27 +5,30 @@
 }
 
 <div class="row" id="outer-container">
-    <div class="col-md-12" id="inner-container">
+    <div class="col-md-10 col-md-offset-1" id="inner-container">
         <div class="formlayout-container">
-            @using (Html.BeginForm())
+            <div class="form-box">
+
+                @using (Html.BeginForm())
             {
-                @Html.AntiForgeryToken()
+                    @Html.AntiForgeryToken()
 
-                <div class="form-horizontal">
+                    <div class="form-horizontal">
 
-                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                    @Html.Partial("ContactEditForm")
-                    <div class="form-group">
-                        <div class="col-md-offset-2 col-md-10">
-                            <input type="submit" value="Create" class="btn btn-primary" />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.Partial("ContactEditForm")
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
                         </div>
                     </div>
-                </div>
-            }
+                }
 
-        </div>
+            </div>
     </div>
 </div>
+    </div>
 
 
 @section Scripts {

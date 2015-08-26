@@ -1759,6 +1759,13 @@
             </summary>
             <param name="options">List filter options. If an property is set the list will be filtered by that value.</param>
         </member>
+        <member name="M:Twilio.TwilioRestClient.ListCalls(System.String)">
+            <summary>
+            Returns a paged list of phone calls made to and from the account.
+            Makes a GET request to the Calls List resource.
+            </summary>
+            <param name="To"></param>
+        </member>
         <member name="M:Twilio.TwilioRestClient.GetCall(System.String)">
             <summary>
             Returns the single Call resource identified by {CallSid}
@@ -2604,7 +2611,7 @@
             Retrieve the details for a specific ShortCode instance.
             Makes a GET request to a ShortCode Instance resource.
             </summary>
-            <param name="shortCodeSid">The Sid of the ShortCode resource to return</param>
+            <param name="shortCodeSid">The Sid of the ShortCode resource to return</param>        
         </member>
         <member name="M:Twilio.TwilioRestClient.UpdateShortCode(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
             <summary>
@@ -5639,6 +5646,11 @@
         <member name="P:Twilio.PhoneNumberOptions.StatusCallbackMethod">
             <summary>
             The HTTP method Twilio will use to make requests to the StatusCallback URL. Either GET or POST. Defaults to POST.
+            </summary>
+        </member>
+        <member name="P:Twilio.PhoneNumberOptions.TrunkSid">
+            <summary>
+            The 34 character sid of the Trunk Twilio should use to handle phone calls to this number
             </summary>
         </member>
         <member name="T:Twilio.Recording">

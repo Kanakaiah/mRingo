@@ -6,46 +6,48 @@
 }
 
 <div class="row" id="outer-container">
-    <div class="col-md-12" id="inner-container">
+    <div class="col-md-10 col-md-offset-1" id="inner-container">
         <div class="formlayout-container">
-            <h3 class="custom-form-heading">Welcome to mRingo!</h3>
-            @Html.Partial("_ExternalLoginsListPartial", new mRingo.Web.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
-
             <div class="form-box">
-                @using (Html.BeginForm())
-                {
-                    <div class="form-horizontal">
+
+                <h3 class="custom-form-heading">Welcome to mRingo!</h3>
+                @Html.Partial("_ExternalLoginsListPartial", new mRingo.Web.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+
+                <div class="form-box">
+                    @using (Html.BeginForm())
+                    {
+                        <div class="form-horizontal">
 
 
-                        <div class="user-signup-separator">
-                            <p class="text"><span>or</span></p>
-                        </div>
-
-
-                        @Html.AntiForgeryToken()
-                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input", @placeholder = "Email *" } })
-                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                            <div class="user-signup-separator">
+                                <p class="text"><span>or</span></p>
                             </div>
-                        </div>
 
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input", @placeholder = "Password *" } })
-                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "input", @placeholder = "Email *" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "input", @placeholder = "Confirm Password *" } })
-                                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "input", @placeholder = "Password *" } })
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                </div>
                             </div>
-                        </div>
 
-                        @*<div class="form-group">
+                            <div class="form-group">
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "input", @placeholder = "Confirm Password *" } })
+                                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            @*<div class="form-group">
                             <div class="col-md-10">
                                 @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "input", @placeholder = "FirstName" } })
                                 @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
@@ -59,19 +61,20 @@
                             </div>
                         </div>*@
 
-                        <div class="form-group">
-                            <div class="col-md-offset-2 col-md-10">
-                                <button class="btn btn-primary custom-submit" type="submit">Create an account</button>
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <button class="btn btn-primary custom-submit" type="submit">Create an account</button>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="info-msg">New to mRingo?@Html.ActionLink("Terms of Use", "Terms", "Home", null, new { @class = "info-msg" })</p>
+                                <p class="info-msg">Oops!@Html.ActionLink("I am a DJ", "SignupDj", "Home", null, new { @class = "info-msg" })</p>
                             </div>
                         </div>
-                        <div>
-                            <p class="info-msg">New to mRingo?@Html.ActionLink("Terms of Use", "Terms", "Home",null, new { @class = "info-msg" })</p>
-                            <p class="info-msg">Oops!@Html.ActionLink("I am a DJ", "SignupDj", "Home",null, new { @class = "info-msg" })</p>
-                        </div>
-                    </div>
-                }
+                    }
 
+                </div>
             </div>
-        </div>
     </div>
+</div>
 </div>

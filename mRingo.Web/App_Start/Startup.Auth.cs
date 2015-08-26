@@ -56,10 +56,10 @@ namespace mRingo.Web
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "1610007672602212",
-               appSecret: "64c8ddf5d488ecb0c1ceecaabe651454"
-               //appId: "447168562111450",
-               //appSecret: "0f27e241f327415fbde2c8d5bea2d643"
+               //appId: "1610007672602212",
+               //appSecret: "64c8ddf5d488ecb0c1ceecaabe651454"
+               appId: "447168562111450",
+               appSecret: "0f27e241f327415fbde2c8d5bea2d643"
                );
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()

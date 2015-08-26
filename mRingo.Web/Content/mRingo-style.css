@@ -2,7 +2,8 @@
 
 /* mRingo basic screen layout styles */
     	
-/* Navbar styles */    	
+/* Navbar styles */ 
+
 #custom-navbar {
  	background-color:#571B7E;
 	padding:0 20px 0 20px;
@@ -33,7 +34,7 @@
 .icon-bar{
     background-color:white;
 }
-   
+
 /* Page content styles */ 
 	
 body{
@@ -45,19 +46,25 @@ body{
     background-color:white;
     margin:0 auto;
     margin-top:90px;
-    height:600px;
 }
 
 /* Footer styles */
 
 #footer{
-	bottom:10px;
   	width:100%;
+    height:80px;
+    background-color:#000;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
 }
   	
 #footer-links a{
 	color:grey;
-	padding:4px;
+	padding:3px;
+	font-size:0.7em;
 }
 		
 #footer-links a:hover{
@@ -66,13 +73,11 @@ body{
 }
   		
 #footer-links{
-	margin-top:15px;
-  	padding:0;
+  	padding-bottom:10px;
 }
   		
 #footer-social{
 	padding:0;
-  	margin-top:-25px;
 }
 
 #footer-social > a {
@@ -82,7 +87,7 @@ body{
 }
   		
 #appstore{
-  	width:80px;	
+  	width:60px;	
 }
 
 .clear{
@@ -158,7 +163,7 @@ body{
 /* mRingo Styles to get a layered form look */
 		
 #outer-container{
-    margin:90px 10px 10px 10px;
+    margin:90px 20px 20px 20px;
     height:600px;
 }
 
@@ -169,6 +174,7 @@ body{
 		
 .custom-form-heading{
     text-align:center;
+    font-size:1.4em;
 	font-family: Georgia, Times, 'Times New Roman', serif;
     text-shadow: 2px 2px 2px #ccc;
     color: #571B7E;
@@ -178,10 +184,10 @@ body{
     	
 .formlayout-container{
     position: relative;
-    width: 60%;
+    width: 100%;
     height:95%;
    	margin: 0 auto;
-    padding: 20px 20px 40px 40px;
+    padding: 20px 40px 20px 40px;
     text-align: center;
     background: #fff;
     border: 1px solid #571B7E;
@@ -262,7 +268,7 @@ body{
 }
     	    	
 .separator{
-    width:50%;
+    width:60%;
     margin:0 auto;
 }
     
@@ -279,10 +285,11 @@ body{
 }
   		
 .userSignup{
-  	width:50%;
+  	width:60%;
   	margin:40px;
-  	font-size:1.1em;
-  	padding: 10px 20px;
+  	text-align:center;
+  	font-size:0.9em;
+  	padding: 10px;
     border:1px solid #571B7E;
   	background-color:#571B7E;
 }
@@ -292,11 +299,11 @@ body{
 }
     	
 .djSignup{
-  	width:50%;
+  	width:60%;
   	margin:40px;
   	background-color:#6A287E;
-  	font-size:1.1em;
-  	padding: 10px 20px;
+  	font-size:0.9em;
+  	padding: 10px;
     border:1px solid #6A287E;
 }
   		
@@ -309,7 +316,7 @@ body{
 .custom-fb-btn{
  	height:40px;
    	width:90%;
-   	margin:20px;
+   	margin:10px;
 }
     
 .input{
@@ -319,7 +326,7 @@ body{
 	background: #fafafa;
     transition:0.2s ease-in-out;
     border-radius: 5px 5px 5px 5px;
-    margin-top:15px;
+    margin-top:5px;
 	height:40px;
 }
 
@@ -342,15 +349,16 @@ body{
 .user-signup-separator{
     width:90%;
     margin:0 auto;
-    margin-top:25px;
+    margin-top:20px;
 }
     
 .custom-submit{
 	background-color:#571B7E;
 	width:30%;
+	text-align:center;
     margin-top:20px;
     margin-bottom:10px;
-    padding: 10px 20px;
+    padding: 10px;
     border:1px solid #571B7E;
 }
 		
@@ -358,11 +366,26 @@ body{
 	background-color:#6A287E;
 }
 
+.custom-signup-submit {
+	background-color:#571B7E;
+	width:60%;
+	text-align:center;
+	font-size:0.9em;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding: 10px;
+    border:1px solid #571B7E;
+}
+
+.custom-signup-submit:hover{
+	background-color:#6A287E;
+}
+
 /* mRingo Login Page styles */
 
 .remember{
 	color:grey;
-	margin:20px 40px 20px 40px;
+	margin:20px 50px 20px 50px;
 	font-size:0.8em;
 }
 

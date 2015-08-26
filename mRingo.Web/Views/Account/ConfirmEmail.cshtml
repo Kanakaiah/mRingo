@@ -3,11 +3,14 @@
 }
 
 <div class="row" id="outer-container">
-    <div class="col-md-12" id="inner-container">
+    <div class="col-md-10 col-md-offset-1" id="inner-container">
         <div class="formlayout-container">
-            <p>
-                Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-            </p>
-        </div>
+            <div class="form-box">
+
+                <p>
+                    Thank you for confirming your email. Please @Html.ActionLink("Click here to Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+                </p>
+            </div>
     </div>
+</div>
 </div>

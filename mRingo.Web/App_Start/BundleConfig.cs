@@ -26,9 +26,9 @@ namespace mRingo.Web
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      // "~/Content/mRingo-style.css"//,
-                      "~/Content/social-buttons.css",
-                      "~/Content/site.css"
+                       "~/Content/mRingo-style.css",
+                      "~/Content/social-buttons.css"//,
+                      //"~/Content/site.css"
                       ));
         }
     }

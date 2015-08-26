@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="mringo" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="mRingo.Data.BaseContext`1-Web.config Connection String" description="" value="Data Source=tcp:kbaotfbtd4.database.windows.net,1433;Initial Catalog=aspnet5-mRingoSolution;User ID=mRingoUser@kbaotfbtd4;Password=Saviour@514" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingo.Data.BaseContext`1']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingo.Data.BaseContext`1']/@connectionString" />
   </parameter>
   <parameter name="mRingoContext-Web.config Connection String" description="" value="Data Source=tcp:kbaotfbtd4.database.windows.net,1433;Initial Catalog=aspnet5-mRingoSolution;User ID=mRingoUser@kbaotfbtd4;Password=Saviour@514" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingoContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingoContext']/@connectionString" />
   </parameter>
 </parameters>

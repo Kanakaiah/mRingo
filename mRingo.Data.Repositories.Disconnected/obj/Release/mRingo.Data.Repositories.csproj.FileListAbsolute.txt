@@ -12,3 +12,17 @@ C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\EntityFramework.SqlS
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.Data.Repositories.csprojResolveAssemblyReference.cache
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.System.Data.Repositories.dll
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.System.Data.Repositories.pdb
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.System.Data.Repositories.dll.config
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.System.Data.Repositories.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.System.Data.Repositories.pdb
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\EntityFramework.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.Data.AccountContext.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.Data.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.Data.AccountContext.pdb
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\mRingo.Data.pdb
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\EntityFramework.xml
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.Data.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.System.Data.Repositories.dll
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data.Repositories.Disconnected\obj\Release\mRingo.System.Data.Repositories.pdb

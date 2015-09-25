@@ -19,7 +19,7 @@ using mRingo.Data.Services.Results;
 
 namespace mRingo.Data.Services.Controllers
 {
-    [Authorize]
+    //  [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {

@@ -12,3 +12,17 @@ C:\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.SqlSer
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.Data.Repositories.csprojResolveAssemblyReference.cache
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.dll
 C:\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.pdb
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.dll.config
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.System.Data.Repositories.pdb
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.AccountContext.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.AccountContext.pdb
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\mRingo.Data.pdb
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.xml
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.Data.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.dll
+C:\Users\Kanakaiah\Source\Repos\mRingo\mRingo.Data.Repositories.Disconnected\obj\Debug\mRingo.System.Data.Repositories.pdb

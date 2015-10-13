@@ -51,7 +51,7 @@ namespace mRingo.Web
             const string phoneNumber = "201-903-0827";
 
             var twilioRestClient = new TwilioRestClient(accountSid, authToken);
-            twilioRestClient.SendSmsMessage(phoneNumber, message.Destination, message.Body);
+            twilioRestClient.SendMessage(phoneNumber, message.Destination, message.Body);
             return Task.FromResult(0);
         }
     }

@@ -29,8 +29,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Data.Initilization",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Data.Repositories", "mRingo.Data.Repositories.Disconnected\mRingo.Data.Repositories.csproj", "{4D821CCD-0B66-42CC-A7CB-B1922A7DC668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Data.Services", "mRingo.Data.Services\mRingo.Data.Services.csproj", "{E4C857D3-AF9B-4B97-851F-601E2386B3B8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Data.Test", "mRingo.Data.Test\mRingo.Data.Test.csproj", "{3C72590E-8A87-409B-9494-F8E3F7E56DB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Repositories.Test", "mRingo.Repositories.Test\mRingo.Repositories.Test.csproj", "{FB912F4D-F1B9-425C-BEC5-DC536FDF8385}"
@@ -73,10 +71,6 @@ Global
 		{4D821CCD-0B66-42CC-A7CB-B1922A7DC668}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D821CCD-0B66-42CC-A7CB-B1922A7DC668}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D821CCD-0B66-42CC-A7CB-B1922A7DC668}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E4C857D3-AF9B-4B97-851F-601E2386B3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4C857D3-AF9B-4B97-851F-601E2386B3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4C857D3-AF9B-4B97-851F-601E2386B3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4C857D3-AF9B-4B97-851F-601E2386B3B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3C72590E-8A87-409B-9494-F8E3F7E56DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C72590E-8A87-409B-9494-F8E3F7E56DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C72590E-8A87-409B-9494-F8E3F7E56DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -110,53 +104,10 @@ Global
 		{B0EF8A62-12DF-4140-874C-B1794147B228} = {8B4DA303-BA14-4844-ACCD-E7621698354A}
 		{D36705B7-1A2E-4D74-A014-8675DCA309A6} = {820BA580-F9B5-42E3-AFB3-648231C38B13}
 		{4D821CCD-0B66-42CC-A7CB-B1922A7DC668} = {CCA7B192-B220-46FF-9116-875A43D0DAC0}
-		{E4C857D3-AF9B-4B97-851F-601E2386B3B8} = {49954E48-9854-4646-A2D5-8874AA2613C0}
 		{3C72590E-8A87-409B-9494-F8E3F7E56DB6} = {78B9EBAA-4F9F-4FFF-93A2-A71CB90A0AD0}
 		{FB912F4D-F1B9-425C-BEC5-DC536FDF8385} = {78B9EBAA-4F9F-4FFF-93A2-A71CB90A0AD0}
 		{135B46AA-8875-43FD-AB3B-74CA40138DE1} = {78B9EBAA-4F9F-4FFF-93A2-A71CB90A0AD0}
 		{70A9CE74-BC92-43D7-A97B-02F7EA2AEE4F} = {47EFBD2B-0588-4E2F-BF2E-8581008B6007}
 		{C47577ED-F692-4C8B-B34B-BB362BC6F697} = {5F29B023-6B24-4AEA-8113-8789A617020B}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 10
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://keinhim.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = mRingo.Data.AccountContext\\mRingo.Data.mRingoContext.csproj
-		SccProjectTopLevelParentUniqueName1 = mRingo.sln
-		SccProjectName1 = mRingo.Data.AccountContext
-		SccLocalPath1 = mRingo.Data.AccountContext
-		SccProjectUniqueName2 = mRingo.Data.Initilization\\mRingo.Data.Initilization.csproj
-		SccProjectTopLevelParentUniqueName2 = mRingo.sln
-		SccProjectName2 = mRingo.Data.Initilization
-		SccLocalPath2 = mRingo.Data.Initilization
-		SccProjectUniqueName3 = mRingo.Data.Repositories.Disconnected\\mRingo.Data.Repositories.csproj
-		SccProjectTopLevelParentUniqueName3 = mRingo.sln
-		SccProjectName3 = mRingo.Data.Repositories.Disconnected
-		SccLocalPath3 = mRingo.Data.Repositories.Disconnected
-		SccProjectUniqueName4 = mRingo.Data.Services\\mRingo.Data.Services.csproj
-		SccProjectTopLevelParentUniqueName4 = mRingo.sln
-		SccProjectName4 = mRingo.Data.Services
-		SccLocalPath4 = mRingo.Data.Services
-		SccProjectUniqueName5 = mRingo.Data.Test\\mRingo.Data.Test.csproj
-		SccProjectTopLevelParentUniqueName5 = mRingo.sln
-		SccProjectName5 = mRingo.Data.Test
-		SccLocalPath5 = mRingo.Data.Test
-		SccProjectUniqueName6 = mRingo.Data\\mRingo.Data.csproj
-		SccProjectTopLevelParentUniqueName6 = mRingo.sln
-		SccProjectName6 = mRingo.Data
-		SccLocalPath6 = mRingo.Data
-		SccProjectUniqueName7 = mRingo.Repositories.Test\\mRingo.Repositories.Test.csproj
-		SccProjectTopLevelParentUniqueName7 = mRingo.sln
-		SccProjectName7 = mRingo.Repositories.Test
-		SccLocalPath7 = mRingo.Repositories.Test
-		SccProjectUniqueName8 = mRingo.Web.Tests\\mRingo.Web.Tests.csproj
-		SccProjectTopLevelParentUniqueName8 = mRingo.sln
-		SccProjectName8 = mRingo.Web.Tests
-		SccLocalPath8 = mRingo.Web.Tests
-		SccProjectUniqueName9 = mRingo.Web\\mRingo.Web.csproj
-		SccProjectTopLevelParentUniqueName9 = mRingo.sln
-		SccProjectName9 = mRingo.Web
-		SccLocalPath9 = mRingo.Web
 	EndGlobalSection
 EndGlobal

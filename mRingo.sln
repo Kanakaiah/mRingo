@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{C47577ED-F69
 		Web_Db_Migrations.txt = Web_Db_Migrations.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mRingo.Data.Service", "..\..\..\..\Visual Studio 2015\Projects\mRingo.Data.Service\mRingo.Data.Service\mRingo.Data.Service.csproj", "{B02D13F2-F67B-4208-8AE8-D038A0F08122}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{70A9CE74-BC92-43D7-A97B-02F7EA2AEE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A9CE74-BC92-43D7-A97B-02F7EA2AEE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A9CE74-BC92-43D7-A97B-02F7EA2AEE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02D13F2-F67B-4208-8AE8-D038A0F08122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02D13F2-F67B-4208-8AE8-D038A0F08122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02D13F2-F67B-4208-8AE8-D038A0F08122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02D13F2-F67B-4208-8AE8-D038A0F08122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,5 +115,6 @@ Global
 		{135B46AA-8875-43FD-AB3B-74CA40138DE1} = {78B9EBAA-4F9F-4FFF-93A2-A71CB90A0AD0}
 		{70A9CE74-BC92-43D7-A97B-02F7EA2AEE4F} = {47EFBD2B-0588-4E2F-BF2E-8581008B6007}
 		{C47577ED-F692-4C8B-B34B-BB362BC6F697} = {5F29B023-6B24-4AEA-8113-8789A617020B}
+		{B02D13F2-F67B-4208-8AE8-D038A0F08122} = {49954E48-9854-4646-A2D5-8874AA2613C0}
 	EndGlobalSection
 EndGlobal

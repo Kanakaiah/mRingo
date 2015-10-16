@@ -20,6 +20,12 @@ namespace mRingo.Data.Repositories
             context = uow.Context;
         }
 
+        public CustomerMasterRepository()
+        {
+            UnitOfWork uow = new UnitOfWork();
+            context = uow.Context;
+        }
+
         public IQueryable<CustomerMaster> All
         {
             get { return context.CustomerMasters; }

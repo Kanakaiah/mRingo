@@ -118,6 +118,7 @@ C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\bin\Debu
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\bin\Debug\System.Web.WebPages.xml
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.csprojResolveAssemblyReference.cache
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.Migrations.initial_create.resources
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.csproj.GenerateResource.Cache
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.dll

@@ -190,16 +190,12 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Config\ApplicationUserConfiguration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DjController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201508052259130_initial_create.cs" />
-    <Compile Include="Migrations\201508052259130_initial_create.Designer.cs">
-      <DependentUpon>201508052259130_initial_create.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ArtistGenreViewModels.cs" />
     <Compile Include="Models\ArtistInstrumentViewModels.cs" />
@@ -306,9 +302,15 @@
     <Content Include="Views\Home\Faqs.cshtml" />
     <Content Include="Views\Home\Testimonials.cshtml" />
     <Content Include="Views\Home\Terms.cshtml" />
+    <Content Include="Views\Dj\Create.cshtml" />
+    <Content Include="Views\Dj\Delete.cshtml" />
+    <Content Include="Views\Dj\Details.cshtml" />
+    <Content Include="Views\Dj\Edit.cshtml" />
+    <Content Include="Views\Dj\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -323,11 +325,6 @@
       <Project>{b0ef8a62-12df-4140-874c-b1794147b228}</Project>
       <Name>mRingo.Data</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201508052259130_initial_create.resx">
-      <DependentUpon>201508052259130_initial_create.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -198,7 +198,5 @@ C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\bin\Twili
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\bin\Twilio.Api.xml
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\bin\mRingo.Data.AccountContext.pdb
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\obj\Debug\mRingo.Web.csprojResolveAssemblyReference.cache
-C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\obj\Debug\mRingo.Web.Migrations.initial_create.resources
-C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\obj\Debug\mRingo.Web.csproj.GenerateResource.Cache
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\obj\Debug\mRingo.Web.dll
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Web\obj\Debug\mRingo.Web.pdb

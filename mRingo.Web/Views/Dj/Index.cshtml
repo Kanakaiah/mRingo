@@ -1,0 +1,172 @@
+﻿@model IEnumerable<mRingo.Web.Models.ArtistMaster>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.frst_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mid_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.last_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nick_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_ln_1_txt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_ln_2_txt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_city_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_state)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_zip_cde)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.addr_ctry_nm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.day_ph_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evng_ph_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cellph_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pager_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.othr_ph_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.day_fax_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evng_fax_nbr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.login_id_txt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email_addr_txt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.alt_email_addr_txt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rec_crt_ts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rec_crt_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rec_upd_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rec_upd_ts)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.frst_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mid_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.last_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nick_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_ln_1_txt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_ln_2_txt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_city_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_state)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_zip_cde)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.addr_ctry_nm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.day_ph_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evng_ph_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cellph_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pager_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.othr_ph_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.day_fax_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evng_fax_nbr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.login_id_txt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email_addr_txt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.alt_email_addr_txt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rec_crt_ts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rec_crt_by)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rec_upd_by)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rec_upd_ts)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.artist_info_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.artist_info_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.artist_info_id })
+        </td>
+    </tr>
+}
+
+</table>

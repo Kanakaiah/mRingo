@@ -1,0 +1,211 @@
+﻿@model mRingo.Web.Models.ArtistMaster
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ArtistMaster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.frst_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.frst_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mid_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mid_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.last_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.last_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nick_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nick_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_ln_1_txt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_ln_1_txt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_ln_2_txt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_ln_2_txt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_city_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_city_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_state)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_state)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_zip_cde)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_zip_cde)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.addr_ctry_nm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.addr_ctry_nm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.day_ph_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.day_ph_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.evng_ph_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.evng_ph_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cellph_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cellph_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pager_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pager_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.othr_ph_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.othr_ph_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.day_fax_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.day_fax_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.evng_fax_nbr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.evng_fax_nbr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.login_id_txt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.login_id_txt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email_addr_txt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email_addr_txt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alt_email_addr_txt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alt_email_addr_txt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rec_crt_ts)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rec_crt_ts)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rec_crt_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rec_crt_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rec_upd_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rec_upd_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rec_upd_ts)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rec_upd_ts)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.artist_info_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

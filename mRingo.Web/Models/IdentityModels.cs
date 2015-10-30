@@ -55,6 +55,8 @@ namespace mRingo.Web.Models
         }
 
         public System.Data.Entity.DbSet<mRingo.Web.Models.CustomerInquiry> CustomerInquiries { get; set; }
+
+        public System.Data.Entity.DbSet<mRingo.Web.Models.ArtistMaster> ArtistMasters { get; set; }
     }
 
     //public class ApplicationDbContext : mRingoContext

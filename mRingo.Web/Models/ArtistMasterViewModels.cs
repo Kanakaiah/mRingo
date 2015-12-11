@@ -22,6 +22,7 @@ namespace mRingo.Web.Models
         public long artist_info_id { get; set; }
 
         [StringLength(64)]
+        [Display(Name = "First Name")]
         public string frst_nm { get; set; }
 
         [StringLength(40)]
@@ -29,6 +30,7 @@ namespace mRingo.Web.Models
 
         [Required]
         [StringLength(64)]
+        [Display(Name = "Last Name")]
         public string last_nm { get; set; }
 
         [StringLength(40)]
@@ -36,6 +38,7 @@ namespace mRingo.Web.Models
 
         [Required]
         [StringLength(100)]
+        [Display(Name = "Address")]
         public string addr_ln_1_txt { get; set; }
 
         [StringLength(100)]
@@ -58,6 +61,7 @@ namespace mRingo.Web.Models
         public string addr_ctry_nm { get; set; }
 
         [StringLength(40)]
+        [Display(Name = "Mobile#")]
         public string day_ph_nbr { get; set; }
 
         [StringLength(40)]
@@ -82,6 +86,7 @@ namespace mRingo.Web.Models
         public string login_id_txt { get; set; }
 
         [StringLength(150)]
+        [Display(Name = "Email")]
         public string email_addr_txt { get; set; }
 
         [StringLength(150)]

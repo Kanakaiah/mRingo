@@ -122,3 +122,4 @@ C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debu
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.csproj.GenerateResource.Cache
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.dll
 C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.pdb
+C:\Users\v-kaetip\Documents\GitHub\SampleProject\web\mRingo\mRingo.Data\obj\Debug\mRingo.Data.csprojResolveAssemblyReference.cache

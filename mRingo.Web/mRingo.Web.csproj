@@ -308,6 +308,7 @@
     <Content Include="Views\Dj\Edit.cshtml" />
     <Content Include="Views\Dj\Index.cshtml" />
     <Content Include="Views\Dj\Book.cshtml" />
+    <Content Include="Views\Dj\Success.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

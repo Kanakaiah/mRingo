@@ -15,6 +15,7 @@ using System.Text;
 
 namespace mRingo.Web.Controllers
 {
+    [Authorize]
     public class DjController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
@@ -174,7 +175,12 @@ namespace mRingo.Web.Controllers
                 "Here is the Booking email for your Band",
                 "Name: " + artistMaster.frst_nm + "  Mobile#:" + @artistMaster.day_ph_nbr.ToString() + "  Haveaniceday!        -mRingoTeam");
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Success");
+        }
+
+        public ActionResult Success()
+        {
+            return View();
         }
 
         [HttpPost]
@@ -193,6 +199,9 @@ namespace mRingo.Web.Controllers
             }
             return View(artistMaster);
         }
+
+
+       
 
 
         protected override void Dispose(bool disposing)

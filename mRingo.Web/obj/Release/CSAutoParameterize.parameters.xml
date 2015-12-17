@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="mRingoContext-Web.config Connection String" description="mRingoContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=.;Initial Catalog=mRingo;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+  <parameter name="mRingoContext-Web.config Connection String" description="mRingoContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:kbaotfbtd4.database.windows.net,1433;Database=aspnet5-mRingoSolution;User ID=mRingoUser@kbaotfbtd4;Password=Saviour@514;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingoContext']/@connectionString" />
   </parameter>
   <parameter name="mRingo.Data.BaseContext`1-Web.config Connection String" description="mRingo.Data.BaseContext`1 Connection String used in web.config by the application to access the database." defaultValue="mRingo.Data.BaseContext`1_ConnectionString" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingo.Data.BaseContext`1']/@connectionString" />
-  </parameter>
-  <parameter name="mRingoContext_DatabasePublish-Web.config Connection String" description="mRingoContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="mRingoContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\v-kaetip\\Documents\\GitHub\\SampleProject\\web\\mRingo\\mRingo\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mRingoContext_DatabasePublish']/@connectionString" />
   </parameter>
 </parameters>
